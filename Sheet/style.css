@@ -1,0 +1,134 @@
+body {
+    background: gray;
+    font-family: Helvetica Neue,'Times New Roman', Times, serif;
+    border: 20%;
+    padding: 0;
+    
+}
+h1 {
+    color:red;
+    opacity: 0.3;
+}
+button {
+    border:none;
+}
+header {
+    opacity: 120%;
+    background-color: aquamarine;
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("br.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-size: 150%;
+    padding:20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header .mobile {
+    display: none;
+}
+header .logo a{
+    background-image: url("Images/download.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 80px;
+    position: relative;
+    top:-20px;
+    text-indent: -99999999999999999px;
+    width: 300px;
+}
+a {
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: red;
+}
+
+div:hover {
+    background-color: red;
+}
+section {
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+section div {
+    background: yellow;
+}
+section.A.Z1 {
+    padding: 2px;
+    margin: 1px;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 657px) {
+    header .Desktop{
+        display: none;
+    }
+    header .mobile{
+        display: inline-block;
+    }
+}
+A.Z1 figure {
+    margin: auto;
+    width: 100px;
+    padding-left: 20px;
+    text-align: center;
+    
+}
+
+.A.Z1 figure img {
+    width: 280px;
+    border-radius: 50%;
+    border-block-color: red;
+    border-color: aqua;
+    height: 280px;
+}
+A.Z1:first-child {
+    margin-left: 0px;
+}
+il {
+    text-decoration: none;
+}
+
+il:hover {
+    text-decoration: underline
+}
+div {
+    background: red;
+    margin: auto;
+    width: 100px;
+}
+footer {
+    padding: 10px 20px;
+    background: black;
+    color: aliceblue;
+    font-size: 80%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 70%;
+    text-decoration: none;
+}
+
+il {
+    display: inline-block;
+    margin-right: 50px;
+    padding: 2px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+il:first-child{
+    margin-left: 0;
+}
